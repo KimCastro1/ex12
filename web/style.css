@@ -1,0 +1,214 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #000;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  list-style: none;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+header .inner {
+  width: 1080px;
+  height: 120px;
+  margin: 0px auto;
+  position: relative;
+}
+header .inner h1 {
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+}
+header .inner h1 a {
+  font: bold 24px "arial";
+  color: #444;
+}
+header .inner .util {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+header .inner .util li {
+  float: left;
+}
+header .inner .util li a {
+  display: block;
+  font: 12px/1 "arial";
+  color: #999;
+  padding: 0px 10px;
+}
+header .inner #gnb {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+header .inner #gnb li {
+  float: left;
+}
+header .inner #gnb li a {
+  display: block;
+  font: bold 15px "arial";
+  color: #555;
+  padding: 20px 40px;
+  transition: all 0.5s;
+}
+header .inner #gnb li a:hover {
+  background-color: #555;
+  color: #fff;
+}
+figure {
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+figure video {
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+figure .inner {
+  width: 1080px;
+  margin: 0px auto;
+  position: relative;
+}
+figure .inner h1 {
+  font: normal 80px "arial";
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+figure .inner p {
+  font: 16px "arial";
+  color: #888;
+  margin-bottom: 60px;
+}
+figure .inner a {
+  display: block;
+  width: 400px;
+  height: 30px;
+  border: 1px solid #bbb;
+  font: bold 11px/30px "arial";
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+figure .inner a:hover {
+  background-color: #fff;
+  color: #555;
+}
+section {
+  width: 100%;
+  padding: 70px 0px;
+}
+section .inner {
+  width: 1080px;
+  margin: 0px auto;
+}
+section .inner h1 {
+  font: bold 20px "arial";
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+section .inner .wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+section .inner .wrap article {
+  width: 230px;
+  margin: 0px 15px;
+}
+section .inner .wrap article h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+section .inner .wrap article h2 a {
+  color: #555;
+  font-size: 18px;
+}
+section .inner .wrap article p {
+  font: 14px/1.4 "arial";
+  color: #777;
+}
+section .inner .wrap article .pic {
+  width: 100%;
+  height: 140px;
+  background: #333;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+section .inner .wrap article .pic img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+footer {
+  width: 100%;
+  background-color: #ddd;
+  padding: 50px 0px;
+  border-top: 1px solid #ccc;
+}
+footer .inner {
+  width: 1080px;
+  margin: 0px auto;
+}
+footer .inner .upper {
+  width: 100%;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+footer .inner .upper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+footer .inner .upper h1 {
+  float: left;
+  font: bold 24px "arial";
+  color: #333;
+}
+footer .inner .upper ul {
+  float: right;
+}
+footer .inner .upper ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+footer .inner .upper ul li a {
+  font: bold 14px "arail";
+  color: #333;
+}
+footer .inner .lower {
+  width: 100%;
+  padding: 20px;
+}
+footer .inner .lower address {
+  width: 100%;
+  font: 12px "arial";
+  color: #777;
+  margin-bottom: 20px;
+}
+footer .inner .lower p {
+  width: 100%;
+  font: 12px "arial";
+  color: #555;
+}

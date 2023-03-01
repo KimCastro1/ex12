@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+li, ul, ol {
+    list-style: none;
+}
+article{
+    width: 200px; height: 200px;
+    background-color: blanchedalmond;
+    margin: 100px auto;
+}
+@media screen and (max-width: 900px) {
+    article{
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 400px) {
+    article{
+        background-color: brown;
+    }
+}
+
